@@ -1,7 +1,7 @@
 .o-banner {
   flex-basis: 100vh;
   align-self: stretch;
-  background: rgba(0, 0, 0, 0.3) url('../img/main-big.jpg') no-repeat fixed center;
+  background: rgba(0, 0, 0, 0.3) url('Images\background.png') no-repeat fixed center;
   background-size: cover;
   background-blend-mode: overlay;
   display: flex;
@@ -10,6 +10,6 @@
   justify-content: center;
 
   @include md {
-    background-image: url('../img/main-small.jpg');
+    background-image: url('Images\background.png');
   }
 }

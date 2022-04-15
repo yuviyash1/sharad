@@ -837,7 +837,7 @@ body {
       flex-basis: 100vh;
   -ms-flex-item-align: stretch;
       align-self: stretch;
-  background: rgba(0, 0, 0, 0.3) url("../img/main-big.jpg") no-repeat fixed center;
+  background: rgba(0, 0, 0, 0.3) url("../../images/background.png") no-repeat fixed center;
   background-size: cover;
   background-blend-mode: overlay;
   display: -webkit-box;
@@ -857,7 +857,7 @@ body {
 
 @media screen and (max-width: 1025px) {
   .o-banner {
-    background-image: url("../img/main-small.jpg");
+    background-image: url("../../images/background.png");
   }
 }
 
